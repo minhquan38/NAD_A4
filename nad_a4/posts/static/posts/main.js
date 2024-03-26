@@ -23,7 +23,7 @@ $.ajax({
   success: function (response) {
     console.log("success", response);
     const data = response.data;
-    spinnerBox.classList.add('not-visible');
+    spinnerBox.classList.add("not-visible");
     console.log(data);
     data.forEach(el => {
       postsBox.innerHTML += `
